@@ -9,7 +9,7 @@ class Config(object):
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "adrinolinks.in")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "80118c72026ffc6debd8d4d909af5bf753a86f4a")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "6170050819"))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Umarxofficiall:cappuccino6005205125.@cluster0.uwzmp5o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Umar:cappuccino@cluster0.nqpyr3r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002187391758")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002246184289"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
