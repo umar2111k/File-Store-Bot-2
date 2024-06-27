@@ -1,15 +1,15 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+  API_ID = int(os.environ.get("API_ID", "23475322"))
+  API_HASH = os.environ.get("API_HASH", "e00e5cebf073df8baba7db34ea0ebdc9"")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7254390943:AAGr45HMuJqGCDrLobX4HTi50Z_FLtcUegI")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "File_store_56bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002197836805"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "adrinolinks.in")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "80118c72026ffc6debd8d4d909af5bf753a86f4a")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "6170050819"))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Umarxofficiall:cappuccino6005205125.@cluster0.uwzmp5o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002187391758")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002246184289"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
